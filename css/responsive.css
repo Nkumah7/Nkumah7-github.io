@@ -25,31 +25,13 @@
     .product_main {
         margin-top: 5%;
     }
-    .box_main {
-        margin-top: 20px;
-    }
-    .mail_section {
-        padding: 23px 15px;
-    }
+    
     .footer_section {
         padding: 50px 0px;
     }
     .useful_text {
         padding-top: 20px;
-    }
-    .box_main {
-        padding: 40px 5px;
-    }
-    .container_main {
-        margin-top: 30px;
-    }
-    .gallery_section_2 {
-        padding-top: 0;
-    }
-    
-    .decorate_text {
-        font-size: 22px;
-    }
+    }   
 
     .stay_safe_section .background_text {        
         font-size: 90px;
@@ -176,13 +158,7 @@
     }
     .product_section2 {
         padding-top: 0;
-    }
-
-    /*.stay_safe_section .background_text {
-        position: relative;
-        font-size: 120px; 
-    }*/
-   
+    }  
 }
 
 @media (max-width: 1120px) {
@@ -197,13 +173,7 @@
         position: absolute;
         top: 75%;
         left: 61%;
-    }
-
-    /*.stay_safe_section .background_text {
-        position: relative;
-        font-size: 120px; 
-    }*/
-    
+    }    
 }
 
 @media (max-width: 992px) {
@@ -236,13 +206,7 @@
         position: absolute;
         top: 75%;
         left: 61%;
-    }
-
-    /*.stay_safe_section .background_text {
-        position: relative;
-        font-size: 100px; 
-    }*/
-    
+    }   
 }
 
 @media (max-width: 768px) {
@@ -283,13 +247,7 @@
         position: absolute;
         top: 75%;
         left: 61%;
-    }
-
-    /*.stay_safe_section .background_text {
-        position: relative;
-        font-size: 100px;
-         
-    }*/    
+    }      
 }
 
 /* Map section */
