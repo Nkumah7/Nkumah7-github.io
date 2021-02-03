@@ -3,10 +3,7 @@
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
-
-
-
-@media (min-width: 768px) {
+@media (min-width: 768px) {    
     .about_title_main {
         padding: 31px 0px;
     }
@@ -15,30 +12,45 @@
     }
     .about_img {
         margin-top: 30px;
-    }
-    .gallery_text {
-        font-size: 14px;
-    }
+    }    
     img.image {
         min-height: 210px;
     }
     .product_main {
         margin-top: 5%;
-    }
-    
+    }       
     .footer_section {
         padding: 50px 0px;
     }
     .useful_text {
         padding-top: 20px;
-    }   
-
+    }
     .stay_safe_section .background_text {        
         font-size: 90px;
     }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) { 
+    .center h1 {
+        font-size: 21px;
+    }
+
+    .center p {
+        font-size: 17px;
+    }
+    .middle-right h1{
+        position: absolute;
+        top: 63%;
+        left: 55%;                
+        font-size: 20px;
+    }    
+    .top-left h1 {
+        font-size: 24px;
+    }
+
+    .top-left p {
+        font-size: 15px;
+    }  
     .navbar {
         padding: 20px 0px;
     }
@@ -52,7 +64,6 @@
     .navbar-expand-lg .navbar-nav .nav-link {
         text-align: center;
     }
-    
     .about_title_main {
         padding: 0px;
     }
@@ -79,18 +90,41 @@
 
     #contact{padding-bottom: 800px;}
 
-   #contact .maps iframe{
-     width: 100%;
-     height: 450px;
-   }
-    
+    #contact .maps iframe{
+        width: 100%;
+        height: 450px;
+   } 
+   .footer_menu, .business_time, .location_text, .social_media {
+    margin-bottom: 10%;
+}   
 }
 
-@media (max-width: 575px) {
-    .middle-right {
+@media (max-width: 575px) {    
+    .center h1 {
+        font-size: 20px;
+    }
+    .center p {
+        font-size: 15px;
+    }
+    .middle-right h1 {
         position: absolute;
-        top: 75%;
-        left: 61%;
+        top: 69%;
+        left: 62%;                
+        font-size: 20px;
+    }
+    .top-left h1 {
+        font-size: 21px;
+    }
+    .top-left p {
+        font-size: 15px;
+    }  
+    .top-left {
+        position: absolute;
+        top: 12%;
+        left: 30%;
+        transform: translate(-50%, -50%);    
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        color: black;
     }
     .about_title_main {
         padding: 0px;
@@ -104,7 +138,6 @@
     .product_main {
         margin-top: 30px;
     }
-
     .testimonial_section_2 {
         padding: 0px 0px 30px 0px;
     }
@@ -123,15 +156,12 @@
     .client_section_2 {
         padding-bottom: 50px;
     }
-
     .stay_safe_section .background_text {        
         font-size: 60px;
-    }
-         
+    }         
     .footer_section {
         padding: 50px 0px;
-    }
-    
+    }    
     .testimonial_section_2 {
         padding: 0px 0px 30px 0px;
     }
@@ -150,30 +180,111 @@
     .client_section_2 {
         padding-bottom: 50px;
     }
-}
-
-@media (max-width: 1400px) {
-    .about_title_main {        
-        margin-top: 35%;
+    .footer_menu, .business_time, .location_text, .social_media {
+        margin-bottom: 10%;
     }
-    .product_section2 {
-        padding-top: 0;
-    }  
 }
 
+@media (min-width: 1401px) {
+    .center h1 {
+        font-size: 30px;
+    }
+    .center p {
+        font-size: 25px;
+    }
+    .middle-right h1{
+        position: absolute;
+        top: 63%;
+        left: 55%;                
+        font-size: 35px;
+    }  
+    .top-left h1 {
+        font-size: 45px;
+    }
+    .top-left p {
+        font-size: 22px;
+    }  
+    .top-left {
+        position: absolute;
+        top: 12%;
+        left: 35%;
+        transform: translate(-50%, -50%);    
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        color: black;
+    } 
+    .footer_menu, .business_time, .location_text, .social_media {
+        margin-bottom: 10%;
+    } 
+}
+
+@media (max-width: 1400px) {    
+    .center h1 {
+        font-size: 25px;
+    }
+    .middle-right h1{
+        position: absolute;
+        top: 63%;
+        left: 54%;                
+        font-size: 35px;
+    }  
+    .center p {
+        font-size: 17px;
+    }
+    .top-left h1 {
+        font-size: 45px;
+    }
+    .top-left p {
+        font-size: 22px;
+    }  
+    .top-left {
+        position: absolute;
+        top: 12%;
+        left: 30%;
+        transform: translate(-50%, -50%);    
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        color: black;
+    } 
+    .footer_menu, .business_time, .location_text, .social_media {
+        margin-bottom: 10%;
+    }
+}
+   
 @media (max-width: 1120px) {
     .about_title_main {        
         margin-top: 35%;
     }
     .product_section2 {
         padding-top: 0;
+    }       
+    .center h1 {
+        font-size: 30px;
     }
-
-    .middle-right {
+    .center p {
+        font-size: 21px;
+    }
+    .middle-right h1{
         position: absolute;
-        top: 75%;
-        left: 61%;
-    }    
+        top: 63%;
+        left: 50%;                
+        font-size: 30px;
+    }       
+    .top-left h1 {
+        font-size: 35px;
+    }
+    .top-left p {
+        font-size: 18px;
+    }  
+    .top-left {
+        position: absolute;
+        top: 12%;
+        left: 30%;
+        transform: translate(-50%, -50%);    
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        color: black;
+    } 
+    .footer_menu, .business_time, .location_text, .social_media {
+        margin-bottom: 10%;
+    }
 }
 
 @media (max-width: 992px) {
@@ -181,32 +292,51 @@
     .custom_nav2 .navbar-nav {
         flex-wrap: wrap;
     }
-
     .custom_nav2 .nav-item {
         flex-basis: 33.333%;
     }
-
     .nav_section .custom_nav-container .nav_search-btn {
         margin: auto;
     }
-
     .about_title_main {        
         margin-top: 35%;
-    }
-    
+    }    
     .product_section2 {
         padding-top: 0;
     }
-
     .about_section .detail-box {
         padding-right: 0;
-    }
-
-    .middle-right {
-        position: absolute;
-        top: 75%;
-        left: 61%;
     }   
+    .center h1 {
+        font-size: 25px;
+    }
+    .center p {
+        font-size: 17px;
+    }
+    .middle-right h1{
+        position: absolute;
+        top: 63%;
+        left: 57%;                
+        font-size: 26px;
+    }   
+    .top-left h1 {
+        font-size: 30px;
+    }
+    .top-left p {
+        font-size: 17px;
+    }  
+    .top-left {
+        position: absolute;
+        top: 12%;
+        left: 30%;
+        transform: translate(-50%, -50%);    
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        color: black;
+    } 
+    .footer_menu, .business_time, .location_text, .social_media {
+        margin-bottom: 10%;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -242,12 +372,35 @@
     .client_section_2 {
         padding-bottom: 50px;
     }
-
-    .middle-right {
+    .center h1 {
+        font-size: 20px;
+    }
+    .center p {
+        font-size: 15px;
+    }
+    .middle-right h1{
         position: absolute;
-        top: 75%;
-        left: 61%;
-    }      
+        top: 63%;
+        left: 57%;                
+        font-size: 21px;
+    } 
+    .top-left h1 {
+        font-size: 23px;
+    }
+    .top-left p {
+        font-size: 15px;
+    }  
+    .top-left {
+        position: absolute;
+        top: 12%;
+        left: 30%;
+        transform: translate(-50%, -50%);    
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        color: black;
+    }   
+    .footer_menu, .business_time, .location_text, .social_media {
+        margin-bottom: 10%;
+    }
 }
 
 /* Map section */
@@ -258,32 +411,30 @@
       width: 100%;
       height: 300px;
     }
-}
-  
-  
-  @media (min-width: 576px) {
-  
-     #contact{padding-bottom: 800px;}
-  
-     #contact .map iframe{
-       width: 100%;
-       height: 300px;
-     }
+}  
+@media (min-width: 576px) {
 
-     #contact .contact_details {
-         background-color: rgb(39, 236, 39);
-     }
-   }
-  
-  @media (min-width: 768px) {
-  
-    #contact{padding-bottom: 350px;}
-  
+    #contact{padding-bottom: 800px;}
+
     #contact .map iframe{
-      width: 100%;
-      height: 300px;
+    width: 100%;
+    height: 300px;
     }
-  }
+
+    #contact .contact_details {
+        background-color: rgb(39, 236, 39);
+    }
+}
+
+@media (min-width: 768px) {
+
+#contact{padding-bottom: 350px;}
+
+#contact .map iframe{
+    width: 100%;
+    height: 300px;
+}
+}
   
   @media (min-width: 992px) {
     #contact{padding-bottom: 200px;}
