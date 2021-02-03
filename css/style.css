@@ -19,9 +19,6 @@
 body {
     color: #666666;    
     font-family: Poppins;
-    /*line-height: 1.80857;
-    font-weight: normal;
-    overflow-x: hidden !important;*/
 }
 
 a {    
@@ -208,8 +205,8 @@ img {
     color: honeydew;        
   }
 
-  /* Middle right text */
-  .middle-right {
+/* Middle right text */
+.middle-right {
     position: absolute;
     top: 65%;
     left: 55%;  
@@ -218,7 +215,7 @@ img {
     color: honeydew;        
   }
 
-  /* Top left text */
+/* Top left text */
 .top-left {
     position: absolute;
     top: 12%;
@@ -339,6 +336,11 @@ img.image {
 /* Product section end */
 
 /* Contact section start */
+.contact_section {
+    width: 100%;
+    height: auto;
+}
+
 .contact_title {
     width: 100%;       
     font-size: 40px;
@@ -354,15 +356,14 @@ img.image {
     display: flex;
     width: 100%;
 }
-  #contact a{
+
+#contact a{
     color: #fff;
     text-decoration: none;
 }
 
 .contact_details {
-    position: absolute;
-    left: 30%;
-    top: 18%;
+    margin-top: 2.5%;
 }
 
 /* start stay safe section */
@@ -558,14 +559,6 @@ img.image {
     color: rgb(39, 236, 39);
 }
 
-/*.location_text li a {
-    color: #ffffff;
-}
-
-.location_text li a:hover {
-    color: rgb(39, 236, 39);
-}*/
-
 .padding_left_10 {
     padding-left: 10px;
 }
@@ -619,7 +612,6 @@ img.image {
     text-align: center;
     margin-left: 0px;
 }
-
 
 .joteq_advert a {
     color: rgb(39, 236, 39);
