@@ -113,15 +113,15 @@
         font-size: 20px;
     }
     .top-left h1 {
-        font-size: 21px;
+        font-size: 18px;
     }
     .top-left p {
-        font-size: 15px;
+        font-size: 9px;
     }  
     .top-left {
         position: absolute;
         top: 12%;
-        left: 30%;
+        left: 33%;
         transform: translate(-50%, -50%);    
         font-family: 'Yanone Kaffeesatz', sans-serif;
         color: black;
